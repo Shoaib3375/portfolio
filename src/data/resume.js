@@ -6,7 +6,8 @@ export const resumeData = {
         phone: "+880 1762823375",
         email: "mdshoaiburislam@gmail.com",
         linkedin: "linkedin.com/in/m3s7a",
-        linkedinUrl: "https://www.linkedin.com/in/m3s7a"
+        linkedinUrl: "https://www.linkedin.com/in/m3s7a",
+        githubUrl: "https://github.com/shoaib3375"
     },
     summary: "Passionate Backend Software Engineer with 2+ years of professional experience and 6+ years of self-driven development expertise. Specialized in building scalable backend systems, RESTful APIs, and full-stack web applications using Laravel, Spring Boot, React, and Next.js. Proven track record of developing production-ready solutions including eLaundry systems and AI-powered applications. Strong foundation in database design, authentication systems, and modern development practices. Certified PHP & Laravel Developer seeking to leverage technical expertise and problem-solving skills to contribute to innovative projects at leading multinational organizations.",
     skills: {
@@ -19,7 +20,7 @@ export const resumeData = {
     },
     experience: [
         {
-            role: "Junior Software Engineer",
+            role: "Software Engineer",
             company: "Triple Commas Inc.",
             location: "Dhaka, Bangladesh",
             period: "Feb 2024 -- Present",

@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { resumeData } from '../data/resume';
 import { ArrowRight, Download } from 'lucide-react';
 import { clockCursor } from 'cursor-effects';
+import profileImg from '../assets/img.png';
+import resumePdf from '../assets/resume.pdf';
 
 const Hero = () => {
     useEffect(() => {
@@ -40,7 +42,8 @@ const Hero = () => {
                                 Get in Touch <ArrowRight size={18} />
                             </a>
                             <a
-                                href="#"
+                                href={resumePdf}
+                                download="resume.pdf"
                                 className="px-8 py-3 bg-white text-gray-700 rounded-full font-medium hover:bg-gray-50 transition-colors border border-gray-200 shadow-sm flex items-center justify-center gap-2"
                             >
                                 View Resume <Download size={18} />
@@ -57,7 +60,7 @@ const Hero = () => {
                         className="relative z-10"
                     >
                         <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-tr from-blue-600 to-cyan-400 rounded-full flex items-center justify-center shadow-2xl overflow-hidden border-4 border-white">
-                            <img src="/src/assets/img.png" alt="Profile" className="w-full h-full object-contain" />
+                            <img src={profileImg} alt="Profile" className="w-full h-full object-contain" />
                         </div>
                     </motion.div>
 

@@ -18,7 +18,7 @@ const Footer = () => {
                         <a href={resumeData.personalInfo.linkedinUrl} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                             <Linkedin size={24} />
                         </a>
-                        <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                        <a href={resumeData.personalInfo.githubUrl} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                             <Github size={24} />
                         </a>
                     </div>
